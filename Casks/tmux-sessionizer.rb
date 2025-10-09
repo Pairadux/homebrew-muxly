@@ -3,7 +3,7 @@ cask "tmux-sessionizer" do
   name "tmux-sessionizer"
   desc "A lightweight CLI for handling TMUX sessions with ease"
   homepage "https://github.com/Pairadux/Tmux-Sessionizer"
-  version "0.12.1"
+  version "0.13.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "tmux-sessionizer" do
   on_macos do
     on_intel do
       url "https://github.com/Pairadux/Tmux-Sessionizer/releases/download/v#{version}/Tmux-Sessionizer_Darwin_x86_64.tar.gz"
-      sha256 "4e0e2619f90614f985b606b095103446d64ea4aebad86d237d1971587d78a167"
+      sha256 "6252416c04fac6d9892f734a3c93cf35e2f45b07a828efed0a8f01cf56deb9af"
     end
     on_arm do
       url "https://github.com/Pairadux/Tmux-Sessionizer/releases/download/v#{version}/Tmux-Sessionizer_Darwin_arm64.tar.gz"
-      sha256 "17d23ecd63a1cb66abad15d68adc30841d3598bb9749b5b51331567ce244460b"
+      sha256 "9405641dfc99a1daecbdae8a9e15aadf8015b0460508c608e99322ff04d47639"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Pairadux/Tmux-Sessionizer/releases/download/v#{version}/Tmux-Sessionizer_Linux_x86_64.tar.gz"
-      sha256 "af64f9763b734e92cd5e6a5fa6afeb2b659328c91e610cee720aeff0a473f946"
+      sha256 "89b4aa6794cf296a41bed00299da4835d88845c6b54d305918743a8178b8d558"
     end
     on_arm do
       url "https://github.com/Pairadux/Tmux-Sessionizer/releases/download/v#{version}/Tmux-Sessionizer_Linux_arm64.tar.gz"
-      sha256 "50295970581f3932e2f99e3ea8c93db1f73b8cf165cdf3d70aeda1964facf8b5"
+      sha256 "5fa2cd71ddb8897bb120cdef34c27eaa7f36e03deb14c0312ffc1deca7fde252"
     end
   end
 
