@@ -3,7 +3,7 @@ cask "muxly" do
   name "muxly"
   desc "A lightweight CLI for handling TMUX sessions with ease"
   homepage "https://github.com/Pairadux/muxly"
-  version "0.24.0"
+  version "0.25.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "muxly" do
   on_macos do
     on_intel do
       url "https://github.com/Pairadux/Muxly/releases/download/v#{version}/Muxly_Darwin_x86_64.tar.gz"
-      sha256 "dd4283b4a01710c0c0bce6e7b14244688db51d6b04b42717767bfa9e2983096f"
+      sha256 "e59f539754e4f13db0de5d85a1df4ba5842e2e94d5d8fdb07034e26e20299e3d"
     end
     on_arm do
       url "https://github.com/Pairadux/Muxly/releases/download/v#{version}/Muxly_Darwin_arm64.tar.gz"
-      sha256 "5376c2a4105a173c18c515704252dd063b4c2b7957996451455738e0648f637f"
+      sha256 "3c4ff322df997f95dcc8447a8849b49d5682b88caacdc6cf6c7c7891a9a6ad8b"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/Pairadux/Muxly/releases/download/v#{version}/Muxly_Linux_x86_64.tar.gz"
-      sha256 "42dc710f9e1d29f2d4b4fcdb9b344a549d1bbbb2ba99d5a835803411b5e811f3"
+      sha256 "94beefd1211c8df03265c6ac075833fa77717f60593a47dda4408150cf63fc97"
     end
     on_arm do
       url "https://github.com/Pairadux/Muxly/releases/download/v#{version}/Muxly_Linux_arm64.tar.gz"
-      sha256 "5e529b9389849df9efa7930f2e41e16cde90d1a650330a4156fe42333cdfe3de"
+      sha256 "3065923c7cc701b3beea6316df1a7ba912277ab6ab13d7be6332f97b01398d5e"
     end
   end
 
